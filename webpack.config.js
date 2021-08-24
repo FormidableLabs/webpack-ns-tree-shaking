@@ -1,5 +1,8 @@
 "use strict";
 
 module.exports = {
-  devtool: false
+  devtool: false,
+  optimization: {
+    minimize: false
+  }
 };
